@@ -23,6 +23,6 @@ auth.set_access_token(consumer_key, consumer_secret)
 api = tweepy.API(auth)
 
 tweets = api.user_timeline(screen_name='elonmusk',
-                           count=200, # max allowed
-                           include_rts=False,
-                           tweet_mode='extended')
+                            count=200, # max allowed
+                            include_rts=False,
+                            tweet_mode='extended')
