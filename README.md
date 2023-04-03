@@ -5,4 +5,4 @@ Originally based on the Twitter Data Pipeline Project Tutorial by Darshil Parma:
 
 
 Currently:
-- setting up google clouid service virtual machine to run airflow through
+- reading through airflow documentation
