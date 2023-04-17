@@ -15,7 +15,7 @@ def run_twitter_etl():
 
     # Twitter handle TODO:
     # Create functionality to pass in a twitter handle
-    twitter_handle = '@seawatch_intl'
+    twitter_handle = 'placeholder'
 
     # Twitter aut
     auth = tweepy.OAuthHandler(api_key, secret_key)
