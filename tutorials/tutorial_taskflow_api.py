@@ -31,6 +31,7 @@ def tutorial_taskflow_api():
 
         order_data_dict = json.loads(data_string)
         return order_data_dict
+
     @task(multiple_outputs=True)
     def transform(order_data_dict: dict):
         """
@@ -44,6 +45,7 @@ def tutorial_taskflow_api():
             total_order_value += value
 
         return {"total_order_value": total_order_value}
+
     @task()
     def load(total_order_value: float):
         """
