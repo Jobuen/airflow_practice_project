@@ -1,8 +1,6 @@
 # airflow_practice_project
-This is a simple project for me to get some practice with apache airflow.
+This is a repository for me to get some practice with apache airflow.
 
-Originally based on the Twitter Data Pipeline Project Tutorial by Darshil Parma: https://www.youtube.com/watch?v=q8q3OFFfY6c
-
-
-Currently:
-- reading through airflow documentation
+- I've setup a simple twitter api
+- Read through and did some airflow tutorials
+- Finished
